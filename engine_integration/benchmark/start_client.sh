@@ -6,11 +6,11 @@ ENGINE_DIR=$(cd "$SCRIPT_DIR/.." && pwd)
 KVCACHED_DIR=$(cd "$ENGINE_DIR/.." && pwd)
 
 
-MODEL=meta-llama/Llama-3.1-8B
+MODEL=meta-llama/Llama-3.2-1B
 VLLM_PORT=12346
 SGL_PORT=30000
 
-NUM_PROMPTS=1000
+NUM_PROMPTS=100
 REQUEST_RATE=10
 
 op=$1
